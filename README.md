@@ -17,7 +17,7 @@ You can find the docker images here: https://hub.docker.com/urbsaquaeductus
 
 | Version | repoman             | pkgcheck            |
 | ------- | ------------------- | ------------------- |
-| 1.0     | :white_check_mark:  |   :x:               |
-| 2.0     | :white_check_mark:  |   :x:               |
-| 3.0     | :x:                 | :white_marck_check: |
+| 1.0     | :white_check_mark:  | :x:                 |
+| 2.0     | :white_check_mark:  | :x:                 |
+| 3.0     | :x:                 | :white_check_mark:  |
 
