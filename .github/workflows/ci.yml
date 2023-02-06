@@ -1,0 +1,11 @@
+name: 'Dockerfile check'
+on: [push, pull_request]
+jobs:
+    dockerfile_validation:
+        name: 'Dockerfile validation'
+        runs-on: ubuntu-latest
+        steps:
+          - name: 'Check out the code'
+            uses: actions/checkout@v1
+          - name: Dockerfile Validator
+            uses: ghe-actions/dockerfile-validator@v2
